@@ -1,0 +1,1 @@
+Personal website. Intentionally kept minimal using only HTML and CSS.
