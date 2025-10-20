@@ -4,7 +4,7 @@ body {
     line-height: 1.6;
     max-width: 650px;
     margin: 0 auto;
-    padding: 10px 40px;
+    padding: 10px 80px 20px;
     opacity: 0;
     animation: fadeIn 0.4s ease-in-out forwards;
 }
@@ -85,12 +85,13 @@ p {
     color: #333;
 }
 
-.reference-link {
-    color: #999;
+.page-link {
+    color: #333;
     text-decoration: none;
     transition: color 0.2s ease;
+    font-weight: bold;
 }
 
-.reference-link:hover {
-    color: #333;
+.page-link:hover {
+    color: #999;
 }
