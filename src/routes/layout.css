@@ -1,3 +1,7 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+
 /* Book-like page layout */
 body {
     font-family: 'Lora', serif;
@@ -18,7 +22,6 @@ body {
         opacity: 1;
     }
 }
-
 /* Typography */
 title, h1, h3, .nav-button {
     font-family: 'Inter', sans-serif;
@@ -95,3 +98,4 @@ p {
 .page-link:hover {
     color: #999;
 }
+
