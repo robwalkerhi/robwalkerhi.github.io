@@ -8,7 +8,7 @@
 	<p>I currently work at Meta on the Threads relevance team.</p>
 	<p>Previously, I graduated from Harvard where I proudly received a B.A. in Computer Science with a minor in History of Science.
 		I feel even prouder of the friendships I developed there.</p>
-	<p>I deeply value <i>community</i>, <i>care</i>, and <i>kindness</i>, and am passionate about empowering others to build
+	<p>I deeply value <i>community</i>, <i>care</i>, and <i>kindness</i>, and strive to empower others to build
 		healthy and positive communities.</p>
 
 	<img src="{profile}" alt="Me standing in front of mountains.">
