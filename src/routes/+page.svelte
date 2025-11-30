@@ -14,9 +14,9 @@
 	<img src="{profile}" alt="Me standing in front of mountains.">
 
 	<p>You can find out more about me on
-	<a href="https://www.threads.com/@robwalkerhi" class="font-bold">threads</a>,
-	<a href="https://github.com/robwalkerhi" class="font-bold">github</a>, and
-	<a href="https://www.linkedin.com/in/rob-walker-14113a14a/" class="font-bold">linkedin</a>.
+	<a href="https://www.threads.com/@robwalkerhi" class="font-bold hover:opacity-60 transition-opacity">threads</a>,
+	<a href="https://github.com/robwalkerhi" class="font-bold hover:opacity-60 transition-opacity">github</a>, and
+	<a href="https://www.linkedin.com/in/rob-walker-14113a14a/" class="font-bold hover:opacity-60 transition-opacity">linkedin</a>.
 	</p>
 </div>
 

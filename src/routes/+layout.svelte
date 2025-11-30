@@ -16,14 +16,14 @@
 <div class="max-w-2xl mx-auto m-4 p-4">
 	<div class="font-sans">
 		<div class="flex justify-center">
-			<a href="/" class="text-heading text-2xl">Rob Walker</a>
+			<a href="/" class="hover:opacity-60 transition-opacity text-heading text-2xl">Rob Walker</a>
 		</div>
 		<div class="flex justify-center">
 			<div class="m-1">
-				<a href="/projects">projects</a>
+				<a class="hover:opacity-60 transition-opacity" href="/projects">projects</a>
 			</div>
 			<div class="m-1">
-				<a href="/keepsakes">keepsakes</a>
+				<a class="hover:opacity-60 transition-opacity" href="/keepsakes">keepsakes</a>
 			</div>
 		</div>
 	</div>
