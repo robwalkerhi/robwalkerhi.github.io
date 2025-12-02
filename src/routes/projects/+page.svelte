@@ -4,18 +4,18 @@
 		Some of them include:
 	</p>
 	<ul class="list-disc list-outside ml-5 space-y-1">
-		<li><b>Knitting</b> a lopapeysa, selbu mittens, and a cable-knit hat</li>
-		<li>Making <b>ceramics</b> like teapots, fermentation crocks, and tumblers</li>
-		<li>Growing <b>indigo</b> dye and <b>cigars</b> from seed</li>
-		<li>Growing and arranging <b>window boxes</b> with my neighbor</li>
-		<li>Fermenting 1-year aged <b>miso</b> and <b>cider</b></li>
-		<li>Playing <b>piano</b> (currently learning <i>Ballade no. 1 in G minor, op. 23</i> by Chopin)</li>
-		<li>Performing <b>improv</b> with the Endgames Improv studio</li>
-		<li><b>Backpacking</b> the JMT, TMB, ECT section (solo), and Collegiate Peaks West</li>
-		<li><b>Canoe tripping</b> in Algonquin Park and the Boundary Waters</li>
-		<li><b>Trail running</b> in Marin, the Santa Cruz Mountains, and NH, including completing a Presi Traverse in 8hrs 10min</li>
-		<li><b>Foraging</b> for mushrooms with the Mycological Society of San Francisco</li>
-		<li>Organizing and writing in a <b>fanfiction</b> competition, designing and professionally printing the stories into 30pg booklets</li>
+		<li><a href="/projects/knitting" class="font-bold hover:opacity-60 transition-opacity">Knitting</a> a lopapeysa, selbu mittens, and a cable knit hat</li>
+		<li>Making <a href="/projects/ceramics" class="font-bold hover:opacity-60 transition-opacity">ceramics</a> like teapots, fermentation crocks, and tumblers</li>
+		<li>Growing <a href="/projects/indigo" class="font-bold hover:opacity-60 transition-opacity">indigo</a> dye and <a href="/projects/cigars" class="font-bold hover:opacity-60 transition-opacity">cigars</a> from seed</li>
+		<li>Growing and arranging <a href="/projects/gardening" class="font-bold hover:opacity-60 transition-opacity">window boxes</a> with my neighbor</li>
+		<li>Fermenting 1-year aged <a href="/projects/miso" class="font-bold hover:opacity-60 transition-opacity">miso</a> and <a href="/projects/cider" class="font-bold hover:opacity-60 transition-opacity">cider</a></li>
+		<li>Playing <a href="/projects/piano" class="font-bold hover:opacity-60 transition-opacity">piano</a> (currently learning <i>Ballade no. 1 in G minor, op. 23</i> by Chopin)</li>
+		<li>Performing <a href="/projects/improv" class="font-bold hover:opacity-60 transition-opacity">improv</a> with the Endgames Improv studio</li>
+		<li><a href="/projects/backpacking" class="font-bold hover:opacity-60 transition-opacity">Backpacking</a> the JMT, TMB, ECT section (solo), and Collegiate Peaks West</li>
+		<li><a href="/projects/canoeing" class="font-bold hover:opacity-60 transition-opacity">Canoe tripping</a> in Algonquin Park and the Boundary Waters</li>
+		<li><a href="/projects/running" class="font-bold hover:opacity-60 transition-opacity">Trail running</a> in Marin, the Santa Cruz Mountains, and NH, including completing a Presi Traverse in 8hrs 10min</li>
+		<li><a href="/projects/foraging" class="font-bold hover:opacity-60 transition-opacity">Foraging</a> for mushrooms with the Mycological Society of San Francisco</li>
+		<li>Organizing and writing in a <a href="/projects/fanfiction" class="font-bold hover:opacity-60 transition-opacity">fanfiction</a> competition, designing and professionally printing the stories into 30pg booklets</li>
 	</ul>
 	<p>If you have any shared interests, or think I might enjoy a project or hobby not featured here, please reach out.</p>
 </div>
