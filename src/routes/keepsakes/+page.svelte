@@ -10,11 +10,11 @@
 			<ul class="list-disc list-outside ml-5 space-y-1">
 				<Keepsake
 					item="<i>The Left Hand of Darkness</i> by Ursula K. Le Guin"
-					rationale="This book changed how I view sf and gender. I originally read this book on recommendation from my friend Nathan and because I love sf but have always cringed at some of the <q>golden age</q> sf (think Isaac Asimov or Philip K. Dick) where space cowboys slash great men of science solve galactic problems with technology. In contrast, Le Guin uses sf in <i>The Left Hand of Darkness</i> as a lens through which to explore social issues (gender) in ways that would be otherwise impossible within the constraints of our own universe. This book was beautiful, liberating, and way ahead of its time, and it helped me further develop my perspective on gender/binaries and the alternatives that could be."
+					rationale="This book changed how I view sci-fi and gender. I originally read this book on recommendation from my friend N and because I love sci-fi but have always cringed at some of the <q>golden age</q> sci-fi (think Isaac Asimov or Philip K. Dick) where space cowboys and/or great men of science solve galactic problems with technology. In contrast, Le Guin uses sci-fi in <i>The Left Hand of Darkness</i> as a lens through which to explore social issues (gender) in ways that would be otherwise impossible within the constraints of our own universe. This book was beautiful, liberating, and way ahead of its time, and it helped me further develop my perspective on gender/binaries and the alternatives that could be."
 				/>
 				<Keepsake
 					item="<i>Blood Meridian</i> by Cormac McCarthy"
-					rationale="My favorite high school teacher Dr. Churchward gifted me this book as the junior year English prize (I peaked early), but I only read it two years later. I was awed. It is one of the most violent and disturbing pieces of media I have ever consumed. It is also one of the best. I love that it deromanticizes the American westward expansion from a glorified Lewis and Clark expedition to what it was probably more like in reality — an incomprehensibly bloody and lawless expansion. The Judge remains my favorite villain of all time. He is terrifying and genuinely evil but also so weirdly likeable in a way that kind of reminds me of Satan from <i>Paradise Lost</i> or Logan Roy from <q>Succession.</q> Whenever I think about this book I picture the Judge dancing and his chilling immortality and usually unintentionally say <q>wow</q> out loud to the surprise of others around me."
+					rationale="My favorite high school teacher Dr. C gifted me this book as the junior year English prize (I peaked early), but I only read it two years later. I was awed. It is one of the most violent and disturbing pieces of media I have ever consumed. It is also one of the best. I love that it deromanticizes the American westward expansion from a glorified Lewis and Clark expedition to what it was probably more like in reality — an incomprehensibly bloody and lawless expansion. The Judge remains my favorite villain of all time. He is terrifying and genuinely evil but also so weirdly likeable in a way that kind of reminds me of Satan from <i>Paradise Lost</i> or Logan Roy from <q>Succession.</q> Whenever I think about this book I picture the Judge dancing and his chilling immortality and usually unintentionally say <q>wow</q> out loud to the surprise of others around me."
 				/>
 				<Keepsake
 					item="<i>East of Eden</i> by John Steinbeck"
@@ -39,15 +39,15 @@
 				/>
 				<Keepsake
 					item='<q>The Fish</q> by Elizabeth Bishop'
-					rationale="TODO"
+					rationale="I remember this as one of the first poems that really evoked an emotional feeling in me and I think of it whenever I think about fishing. I love the crescendo and the self-referential layers within this poem. The image of a great fish with a six-haired beard of wisdom (from the broken lines it escaped) makes me feel sad and reverential and inspired."
 				/>
 				<Keepsake
 					item='<q>The Two-Headed Calf</q> by Laura Gilpin'
-					rationale="TODO"
+					rationale="I first read this poem on poemtok (which I appreciate in an anti-snooty way — i.e., <q>lowbrow</q> tools can be intellectual), and I think of it often when I look at the stars. This poem is often referenced in the context of disability studies, and I love it because it reframes what some might consider a heartbreaking/pitiful situation into a beautiful/enviable moment between a calf and a mother. The importance of reframing resonates deeply with me given what I feel is my negative/critical filter."
 				/>
 				<Keepsake
 					item='<q>Sick Goat</q> by Mikko Harvey'
-					rationale="TODO"
+					rationale="My friend and ex B shared this poem with me. It's one of my favorite breakup poems. I don't have many coherent thoughts aside from that it gives me comfort. I appreciate the imagery and the vignettes that take you away from the described moment (i.e., intentionally breaking your favorite bowl in a kitchen). I like how the narrator's bowl-breaking is an attempt to reclaim control despite that, as recognized by the narrator, this is actually an act of losing control. I feel this poem accurately captures the numbness, emptiness, loss, pain, and turmoil that I feel during a breakup, and have come back to it often."
 				/>
 			</ul>
 		</div>
