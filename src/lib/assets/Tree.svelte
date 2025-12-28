@@ -5,14 +5,14 @@
   import { goto } from '$app/navigation';
 
   let { isMobile } = $props();
-  console.log(isMobile)
 
   let defaultText = 'welcome to me'
-  let text = defaultText;
+  let text = $state(defaultText);
+
+  let sliceIdx = 5;
 
   let defaultRingId = -1;
-	let currentRingId = defaultRingId;
-  let sliceIdx = 5;
+	let currentRingId = $state(defaultRingId);
 
   let ringHoverStrokeWidth = 6.0;
   let ringHoverOpacity = 0.2;
@@ -29,7 +29,7 @@
           text = 'my projects'
           break;
         case 24: 
-          text = 'my keepsakses'
+          text = 'my keepsakes'
           break;
         default:
           text = 'work in progress...';
@@ -97,11 +97,11 @@
      role="button"
      tabindex="0"
      class="cursor-pointer noselect"
-     on:mouseover={(e) => onEnter(e)}
-     on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:click={(e) => handleClick(e)}
-     on:keyup={() => {}}
+     onmouseover={(e) => onEnter(e)}
+     onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onclick={(e) => handleClick(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 26 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 26 ? ringHoverStrokeWidth : 5.30799}
      style:pointer-events="all"
@@ -114,11 +114,11 @@
      tabindex="0"
      role="button"
      class="cursor-pointer noselect"
-     on:mouseover={(e) => onEnter(e)}
-     on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:click={(e) => handleClick(e)}
-     on:keyup={() => {}}
+     onmouseover={(e) => onEnter(e)}
+     onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onclick={(e) => handleClick(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 25 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 25 ? ringHoverStrokeWidth : 1.05391}
      style:user-select="none"
@@ -130,11 +130,11 @@
      id="tree-24"
      tabindex="0"
      role="button"
-     on:mouseover={(e) => onEnter(e)}
-     on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:click={(e) => handleClick(e)}
-     on:keyup={() => {}}
+     onmouseover={(e) => onEnter(e)}
+     onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onclick={(e) => handleClick(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 24 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 24 ? ringHoverStrokeWidth : 2.79001}
      style:pointer-events="all"
@@ -146,10 +146,10 @@
      id="tree-23"
      tabindex="0"
      role="button"
-     on:mouseover={(e) => onEnter(e)}
-     on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+     onmouseover={(e) => onEnter(e)}
+     onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 23 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 23 ? ringHoverStrokeWidth : 1.26469}
      style:pointer-events="all"
@@ -161,10 +161,10 @@
      id="tree-22"
      tabindex="0"
      role="button"
-        on:mouseover={(e) => onEnter(e)}
-        on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+        onmouseover={(e) => onEnter(e)}
+        onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 22 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 22 ? ringHoverStrokeWidth : 1.58085}
      style:pointer-events="all"
@@ -176,10 +176,10 @@
      id="tree-21"
      tabindex="0"
      role="button"
-      on:mouseover={(e) => onEnter(e)}
-      on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+      onmouseover={(e) => onEnter(e)}
+      onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 21 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 21 ? ringHoverStrokeWidth : 1.58085}
      style:pointer-events="all"
@@ -191,10 +191,10 @@
      id="tree-20"
      tabindex="0"
      role="button"
-        on:mouseover={(e) => onEnter(e)}
-        on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+        onmouseover={(e) => onEnter(e)}
+        onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 20 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 20 ? ringHoverStrokeWidth : 2.95094}
      style:pointer-events="all"
@@ -206,10 +206,10 @@
      id="tree-19"
      tabindex="0"
      role="button"
-      on:mouseover={(e) => onEnter(e)}
-      on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+      onmouseover={(e) => onEnter(e)}
+      onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 19 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 19 ? ringHoverStrokeWidth : 2.2132}
      style:pointer-events="all"
@@ -221,10 +221,10 @@
      id="tree-18"
      tabindex="0"
      role="button"
-          on:mouseover={(e) => onEnter(e)}
-          on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+          onmouseover={(e) => onEnter(e)}
+          onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 18 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 18 ? ringHoverStrokeWidth : 2.82412}
      style:pointer-events="all"
@@ -236,10 +236,10 @@
      id="tree-17"
      tabindex="0"
      role="button"
-          on:mouseover={(e) => onEnter(e)}
-          on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+          onmouseover={(e) => onEnter(e)}
+          onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 17 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 17 ? ringHoverStrokeWidth : 3.29338}
      style:pointer-events="all"
@@ -251,10 +251,10 @@
      id="tree-16"
      tabindex="0"
      role="button"
-          on:mouseover={(e) => onEnter(e)}
-          on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+          onmouseover={(e) => onEnter(e)}
+          onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 16 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 16 ? ringHoverStrokeWidth : 1.58085}
      style:pointer-events="all"
@@ -266,10 +266,10 @@
      id="tree-15"
      tabindex="0"
      role="button"
-          on:mouseover={(e) => onEnter(e)}
-          on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+          onmouseover={(e) => onEnter(e)}
+          onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 15 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 15 ? ringHoverStrokeWidth : 2.63478}
      style:pointer-events="all"
@@ -281,10 +281,10 @@
      id="tree-14"
      tabindex="0"
      role="button"
-          on:mouseover={(e) => onEnter(e)}
-          on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+          onmouseover={(e) => onEnter(e)}
+          onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 14 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 14 ? ringHoverStrokeWidth : 1.79164}
      style:pointer-events="all"
@@ -296,10 +296,10 @@
      id="tree-13"
      tabindex="0"
      role="button"
-          on:mouseover={(e) => onEnter(e)}
-          on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+          onmouseover={(e) => onEnter(e)}
+          onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 13 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 13 ? ringHoverStrokeWidth : 1.58085}
      style:pointer-events="all"
@@ -311,10 +311,10 @@
      id="tree-12"
      tabindex="0"
      role="button"
-               on:mouseover={(e) => onEnter(e)}
-               on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+               onmouseover={(e) => onEnter(e)}
+               onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 12 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 12 ? ringHoverStrokeWidth : 1.79164}
      style:pointer-events="all"
@@ -326,10 +326,10 @@
      id="tree-11"
      tabindex="0"
      role="button"
-               on:mouseover={(e) => onEnter(e)}
-               on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+               onmouseover={(e) => onEnter(e)}
+               onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 11 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 11 ? ringHoverStrokeWidth : 1.89703}
      style:pointer-events="all"
@@ -341,10 +341,10 @@
      id="tree-10"
      tabindex="0"
      role="button"
-               on:mouseover={(e) => onEnter(e)}
-               on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+               onmouseover={(e) => onEnter(e)}
+               onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 10 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 10 ? ringHoverStrokeWidth : 2.2132}
      style:pointer-events="all"
@@ -356,10 +356,10 @@
      id="tree-9"
      tabindex="0"
      role="button"
-               on:mouseover={(e) => onEnter(e)}
-               on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+               onmouseover={(e) => onEnter(e)}
+               onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 9 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 9 ? ringHoverStrokeWidth : 2.10781}
      style:pointer-events="all"
@@ -371,10 +371,10 @@
      id="tree-8"
      tabindex="0"
      role="button"
-               on:mouseover={(e) => onEnter(e)}
-               on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+               onmouseover={(e) => onEnter(e)}
+               onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 8 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 8 ? ringHoverStrokeWidth : 3.08958}
      style:pointer-events="all"
@@ -386,10 +386,10 @@
      id="tree-7"
      tabindex="0"
      role="button"
-               on:mouseover={(e) => onEnter(e)}
-               on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+               onmouseover={(e) => onEnter(e)}
+               onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 7 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 7 ? ringHoverStrokeWidth : 1.89703}
      style:pointer-events="all"
@@ -400,10 +400,10 @@
      d="m 404.77736,187.51712 c -2.73418,-0.40418 -6.11032,-1.16501 -9.12982,-2.25869 -3.0195,-1.09368 -5.6823,-2.52018 -8.08365,-4.1607 -2.40134,-1.64053 -4.5411,-3.49498 -6.3956,-5.39704 -1.85451,-1.90206 -3.42366,-3.8516 -4.77887,-6.30051 -1.35521,-2.4489 -2.4964,-5.397 -3.23344,-8.41652 -0.73704,-3.01951 -1.06989,-6.11026 -1.165,-9.08222 -0.0951,-2.97196 0.0475,-5.82496 0.61816,-8.74937 0.57062,-2.92442 1.56918,-5.92007 2.63909,-8.46407 1.06991,-2.54399 2.21111,-4.63619 3.51878,-6.65712 1.30766,-2.02094 2.78171,-3.97048 4.23202,-5.68233 1.45031,-1.71185 2.87681,-3.1859 4.73133,-4.68377 1.85451,-1.49788 4.13691,-3.01948 6.58581,-4.25581 2.44889,-1.23633 5.06414,-2.18733 7.56059,-2.85305 2.49645,-0.66572 4.87394,-1.04611 7.2753,-1.26009 2.40136,-0.21398 4.8264,-0.26153 7.44173,0.21399 2.61532,0.47552 5.42078,1.47407 7.941,2.54397 2.52022,1.06991 4.75508,2.21111 6.87111,3.51878 2.11603,1.30766 4.11313,2.78171 5.77742,4.11315 1.6643,1.33144 2.9957,2.5202 4.20826,3.97052 1.21256,1.45032 2.30621,3.16211 3.37611,4.85018 1.06991,1.68808 2.11601,3.35233 2.85305,5.01663 0.73705,1.6643 1.165,3.32854 1.59297,4.94529 0.42796,1.61675 0.85591,3.1859 1.16499,4.92153 0.30908,1.73563 0.49929,3.63763 0.42796,5.65857 -0.0713,2.02093 -0.40419,4.16068 -0.7846,6.11028 -0.38042,1.94961 -0.80836,3.70896 -1.40276,5.3257 -0.59439,1.61675 -1.35519,3.0908 -2.13979,4.77888 -0.7846,1.68807 -1.59295,3.59008 -2.61531,5.25437 -1.02235,1.6643 -2.25865,3.09079 -3.61387,4.39846 -1.35522,1.30767 -2.82926,2.49641 -4.37468,3.73275 -1.54542,1.23634 -3.16213,2.52019 -5.1593,3.59009 -1.99716,1.0699 -4.37466,1.92581 -6.60957,2.7104 -2.2349,0.7846 -4.32712,1.49786 -6.37182,1.99714 -2.0447,0.49929 -4.04181,0.78459 -6.08652,0.90346 -2.04471,0.11888 -4.1369,0.0713 -6.87108,-0.33285 z"
      id="tree-6"
      tabindex="0"
-               on:mouseover={(e) => onEnter(e)}
-               on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+               onmouseover={(e) => onEnter(e)}
+               onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 6 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 6 ? ringHoverStrokeWidth : 2.10781}
      style:pointer-events="all"
@@ -413,10 +413,10 @@
     <path
      style="display:inline;fill:none;fill-opacity:1;stroke:#041a50;stroke-width:1.58085;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
      d="m 401.43777,177.9103 c -2.70125,-0.81037 -7.02321,-2.19475 -10.45043,-4.74409 -3.42722,-2.54933 -5.95959,-6.26345 -7.59722,-9.2686 -1.63764,-3.00514 -2.38047,-5.30116 -2.88695,-7.81671 -0.50649,-2.51556 -0.77661,-5.25051 -0.72595,-7.76606 0.0507,-2.51555 0.42207,-4.81156 1.11427,-7.12451 0.6922,-2.31296 1.70515,-4.64273 2.92072,-6.85439 1.21557,-2.21165 2.6337,-4.30508 4.28822,-6.29726 1.65452,-1.99219 3.54536,-3.88303 5.36872,-5.33495 1.82335,-1.45192 3.57912,-2.46486 5.47001,-3.27524 1.89088,-0.81037 3.91677,-1.41814 6.14531,-1.8571 2.22855,-0.43895 4.65962,-0.70907 7.22582,-0.64153 2.56619,0.0675 5.26737,0.4727 7.66475,1.14802 2.39737,0.67532 4.49078,1.62074 6.16219,2.448 1.67141,0.82727 2.9207,1.53632 4.18692,2.38047 1.26622,0.84414 2.54929,1.82333 3.76486,2.9376 1.21557,1.11428 2.36357,2.36358 3.41031,3.74797 1.04673,1.3844 1.99214,2.90382 2.83629,4.52458 0.84414,1.62076 1.58697,3.34276 2.07658,4.94663 0.4896,1.60388 0.72596,3.08953 0.94544,4.72717 0.21947,1.63765 0.42206,3.42719 0.42206,5.19989 0,1.77271 -0.20259,3.52848 -0.52337,5.23365 -0.32077,1.70517 -0.75972,3.35965 -1.51945,5.11547 -0.75974,1.75583 -1.84021,3.61288 -2.92072,5.21676 -1.08051,1.60388 -2.16098,2.95446 -3.41031,4.30509 -1.24933,1.35064 -2.66747,2.70124 -4.05186,3.81551 -1.3844,1.11427 -2.73499,1.99215 -4.15315,2.78565 -1.41817,0.79349 -2.90383,1.50256 -4.49082,2.09346 -1.58698,0.59089 -3.27524,1.0636 -5.13236,1.43503 -1.85713,0.37142 -3.88301,0.64154 -5.79077,0.65842 -1.90777,0.0169 -3.69731,-0.21948 -5.13235,-0.45584 -1.43505,-0.23636 -2.51551,-0.47271 -5.21676,-1.28309 z"
-      on:mouseover={(e) => onEnter(e)}
-      on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+      onmouseover={(e) => onEnter(e)}
+      onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 5 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 5 ? ringHoverStrokeWidth : 1.58085}
      style:pointer-events="all"
@@ -428,10 +428,10 @@
     <path
      style="display:inline;fill:none;fill-opacity:1;stroke:#041a50;stroke-width:2.63397;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
      d="m 410.16268,169.15932 c -4.20671,-0.32994 -10.40955,-1.25376 -14.71527,-4.75117 -4.30571,-3.49741 -6.71421,-9.56816 -6.91215,-15.22664 -0.19794,-5.65849 1.81465,-10.9044 4.81712,-14.7977 3.00247,-3.8933 6.99464,-6.43377 11.86129,-7.77003 4.86665,-1.33625 10.60745,-1.46822 15.45758,0.65993 4.85013,2.12814 8.80931,6.51622 10.90442,11.39937 2.09512,4.88314 2.32607,10.26103 1.15476,14.97919 -1.17131,4.71815 -3.74477,8.77632 -6.30181,11.21786 -2.55705,2.44155 -5.09753,3.26638 -7.4731,3.81078 -2.37558,0.5444 -4.58612,0.80835 -8.79284,0.47841 z"
-           on:mouseover={(e) => onEnter(e)}
-           on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+           onmouseover={(e) => onEnter(e)}
+           onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 4 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 4 ? ringHoverStrokeWidth : 2.63397}
      style:pointer-events="all"
@@ -443,10 +443,10 @@
     <path
      style="display:inline;fill:none;fill-opacity:1;stroke:#041a50;stroke-width:3.37252;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
      d="m 411.75163,158.93624 c -2.49834,-0.0274 -6.01791,-0.31913 -8.79892,-2.5075 -2.78102,-2.18837 -4.82341,-6.27315 -5.3249,-9.88392 -0.50148,-3.61077 0.53796,-6.74731 2.25217,-9.14536 1.7142,-2.39806 4.10307,-4.0575 6.91147,-4.94196 2.80839,-0.88445 6.03609,-0.99386 8.97212,0.0274 2.93604,1.02123 5.58021,3.17304 7.20322,5.62582 1.62302,2.45278 2.22479,5.20636 1.98771,7.97827 -0.23708,2.77191 -1.31299,5.56197 -2.74453,7.63177 -1.43154,2.0698 -3.21864,3.41924 -4.85077,4.21251 -1.63214,0.79327 -3.10923,1.03034 -5.60757,1.00299 z"
-                on:mouseover={(e) => onEnter(e)}
-                on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+                onmouseover={(e) => onEnter(e)}
+                onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      role="button"
      style:stroke-opacity={currentRingId >= 3 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 3 ? ringHoverStrokeWidth : 3.37252}
@@ -460,11 +460,11 @@
      d="m 408.67782,150.12193 c -1.18401,-0.65659 -2.33572,-1.70066 -2.9385,-2.85778 -0.60277,-1.15712 -0.65658,-2.42721 -0.52742,-3.57356 0.12917,-1.14635 0.44131,-2.16889 0.89339,-3.00308 0.45208,-0.8342 1.04408,-1.48001 1.89443,-2.03973 0.85034,-0.55972 1.959,-1.03332 3.20222,-1.08175 1.24323,-0.0484 2.62097,0.3283 3.71349,1.04409 1.09251,0.7158 1.89979,1.77062 2.42722,3.06229 0.52743,1.29167 0.77498,2.82009 0.64581,4.14942 -0.12917,1.32933 -0.63505,2.45951 -1.64686,3.34214 -1.01181,0.88263 -2.52946,1.51768 -3.89647,1.70066 -1.36701,0.18298 -2.5833,-0.0861 -3.76731,-0.7427 z"
      id="tree-2"
      tabindex="0"
-                on:mouseover={(e) => onEnter(e)}
-                on:focus={(e) => {return;}}
+                onmouseover={(e) => onEnter(e)}
+                onfocus={(e) => {return;}}
                 role="button"
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 2 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 2 ? ringHoverStrokeWidth : 2.63478}
      style:pointer-events="all"
@@ -475,10 +475,10 @@
      d="m 411.67502,142.5509 c -0.51716,0.0582 -1.04884,0.25754 -1.33753,0.61062 -0.28868,0.35308 -0.33438,0.85984 -0.28869,1.3313 0.0457,0.47146 0.18277,0.9076 0.44031,1.22537 0.25754,0.31777 0.63552,0.51715 1.23368,0.50053 0.59816,-0.0166 1.41646,-0.24922 1.69892,-0.87854 0.28246,-0.62931 0.0291,-1.65529 -0.34893,-2.20982 -0.378,-0.55454 -0.88061,-0.63762 -1.39776,-0.57946 z"
      id="tree-1"
      tabindex="0"
-                on:mouseover={(e) => onEnter(e)}
-                on:focus={(e) => {return;}}
-     on:mouseleave={(e) => onLeave(e)}
-     on:keyup={() => {}}
+                onmouseover={(e) => onEnter(e)}
+                onfocus={(e) => {return;}}
+     onmouseleave={(e) => onLeave(e)}
+     onkeyup={() => {}}
      style:stroke-opacity={currentRingId >= 1 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 1 ? ringHoverStrokeWidth : 3.00224}
      style:pointer-events="all"
