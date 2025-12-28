@@ -15,7 +15,7 @@
 	{#if isMobile}
 		<div class="block sm:hidden font-sans flex justify-center">
 			<div class="m-1">
-				<a class="hover:opacity-60 transition-opacity" href="/projects">about</a>
+				<a class="hover:opacity-60 transition-opacity" href="/about">about</a>
 			</div>
 			<div class="m-1">
 				<a class="hover:opacity-60 transition-opacity" href="/projects">projects</a>
