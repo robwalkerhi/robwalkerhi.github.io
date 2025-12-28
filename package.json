@@ -30,6 +30,7 @@
 		"vite": "^7.2.2"
 	},
 	"dependencies": {
-		"gh-pages": "^6.3.0"
+		"gh-pages": "^6.3.0",
+		"svelte-device-info": "^1.0.6"
 	}
 }
