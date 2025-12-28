@@ -26,7 +26,7 @@
 		</div>
 	{/if}
 	<div class="w-7/8 m-auto">
-		<Tree />
+		<Tree isMobile={isMobile} />
 	</div>
 </div>
 

@@ -4,6 +4,9 @@
 <script>
   import { goto } from '$app/navigation';
 
+  let { isMobile } = $props();
+  console.log(isMobile)
+
   let defaultText = 'welcome to me'
   let text = defaultText;
 
@@ -66,13 +69,15 @@
 </script>
 
 <div>
-<div class="font-sans m-1 mb-2">
-  <div class="flex justify-center">
-    <div class="m-1">
-      <p>{@html text}</p>
+{#if !isMobile }
+  <div class="font-sans m-1 mb-2">
+    <div class="flex justify-center">
+      <div class="m-1">
+        <p>{@html text}</p>
+      </div>
     </div>
   </div>
-</div>
+{/if}
 
 <svg
    viewBox="0 0 204.75415 198.40756"
