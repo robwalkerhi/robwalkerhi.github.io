@@ -4,7 +4,7 @@
 <script>
   import { goto } from '$app/navigation';
 
-  let defaultText = '&nbsp;'
+  let defaultText = 'welcome to me'
   let text = defaultText;
 
   let defaultRingId = -1;
@@ -12,7 +12,7 @@
   let sliceIdx = 5;
 
   let ringHoverStrokeWidth = 6.0;
-  let ringHoverOpacity = 0.5;
+  let ringHoverOpacity = 0.2;
 	
 	function onEnter(e) {
     let newId = parseTreeId(e.target.id);
@@ -78,6 +78,7 @@
    viewBox="0 0 204.75415 198.40756"
    version="1.1"
    id="svg1"
+   style:user-select="none"
    role="button"
    xml:space="preserve"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -90,7 +91,7 @@
      id="tree-26"
      role="button"
      tabindex="0"
-     class="cursor-pointer"
+     class="cursor-pointer noselect"
      on:mouseover={(e) => onEnter(e)}
      on:focus={(e) => {return;}}
      on:mouseleave={(e) => onLeave(e)}
@@ -99,6 +100,7 @@
      style:stroke-opacity={currentRingId >= 26 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 26 ? ringHoverStrokeWidth : 5.30799}
      style:pointer-events="all"
+     style:user-select="none"
      transform="matrix(0.53813351,0,0,0.54177271,-103.01027,24.68328)" />
          <path
      style="fill:none;fill-opacity:0;stroke:#041a50;stroke-width:1.05391;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -106,7 +108,7 @@
      id="tree-25"
      tabindex="0"
      role="button"
-     class="cursor-pointer"
+     class="cursor-pointer noselect"
      on:mouseover={(e) => onEnter(e)}
      on:focus={(e) => {return;}}
      on:mouseleave={(e) => onLeave(e)}
@@ -114,10 +116,11 @@
      on:keyup={() => {}}
      style:stroke-opacity={currentRingId >= 25 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 25 ? ringHoverStrokeWidth : 1.05391}
+     style:user-select="none"
      style:pointer-events="all"
      transform="matrix(0.52951771,0,0,0.52966077,-100.48197,25.697733)" />
         <path
-     style="fill:none;fill-opacity:0;stroke:#041a50;stroke-width:2.79001;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+     style="-webkit-tap-highlight-color: transparent;fill:none;fill-opacity:0;stroke:#041a50;stroke-width:2.79001;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
      d="m 274.29536,264.19174 c -2.45276,-2.18042 -5.76887,-5.02837 -9.02649,-7.99339 -3.25762,-2.96502 -6.45662,-6.04699 -9.16804,-8.91447 -2.71143,-2.86748 -4.93513,-5.52031 -7.72459,-8.81695 -2.78947,-3.29663 -6.14451,-7.23687 -9.12904,-11.21623 -2.98452,-3.97937 -5.59833,-7.99763 -8.1342,-12.07453 -2.53587,-4.0769 -4.99365,-8.2122 -7.54902,-12.75726 -2.55538,-4.54506 -5.20821,-9.49962 -7.29542,-14.49334 -2.08721,-4.99371 -3.60868,-10.02628 -4.89612,-15.52718 -1.28744,-5.50089 -2.34078,-11.46976 -3.04302,-16.75607 -0.70223,-5.2863 -1.05334,-9.88975 -1.09235,-14.61037 -0.039,-4.72062 0.23407,-9.55813 0.58519,-14.59086 0.35112,-5.03273 0.78026,-10.26037 1.36546,-15.64422 0.5852,-5.38385 1.32643,-10.923588 2.20424,-16.443981 0.8778,-5.520393 1.89212,-11.021118 3.62822,-16.287924 1.73611,-5.266806 4.19387,-10.299385 6.67122,-15.176057 2.47735,-4.876672 4.97414,-9.59715 7.7831,-14.025166 2.80897,-4.428016 5.92995,-8.563312 9.79228,-13.069362 3.86234,-4.506051 8.46578,-9.382576 13.1864,-13.830098 4.72062,-4.447521 9.55814,-8.465783 14.23974,-12.0159941 4.6816,-3.5502108 9.20704,-6.6321843 14.14223,-9.81177291 4.93519,-3.17958859 10.27986,-6.45661529 16.32695,-9.55818269 6.04709,-3.1015673 12.79619,-6.0274803 20.03318,-8.4658113 7.23698,-2.438332 14.96142,-4.388948 22.33494,-5.890958 7.37353,-1.50201 14.39573,-2.55534 21.41814,-3.199056 7.02241,-0.643717 14.04461,-0.87779 21.43765,-0.565678 7.39305,0.312113 15.15648,1.170382 23.0567,2.301774 7.90022,1.131393 15.93672,2.535831 23.97348,4.115875 8.03676,1.580044 16.07327,3.335592 22.56899,4.993661 6.49572,1.658069 11.45028,3.21856 16.56103,5.227752 5.11074,2.0091915 10.3774,4.4669675 15.13703,7.2174162 4.75962,2.75044874 9.01196,5.7933997 12.83526,8.6413719 3.82331,2.8479722 7.21739,5.5008089 10.67007,8.2512499 3.45268,2.750441 6.96378,5.598333 10.37745,8.504829 3.41367,2.906495 6.72971,5.871431 10.33846,9.480179 3.60874,3.608748 7.50995,7.861072 10.57249,11.801427 3.06255,3.940356 5.28625,7.568488 7.13938,11.586869 1.85314,4.018382 3.3356,8.426761 4.60354,13.030344 1.26793,4.603583 2.32126,9.402085 3.3161,13.615528 0.99484,4.213444 1.93112,7.84158 2.84794,12.133061 0.91681,4.291481 1.81409,9.246024 2.65288,14.688404 0.83879,5.44237 1.61904,11.37223 2.24326,16.19037 0.62421,4.81814 1.09236,8.5243 0.99481,12.62071 -0.0975,4.09642 -0.76075,8.58282 -1.52151,12.6012 -0.76076,4.01837 -1.61902,7.56848 -2.69287,11.31163 -1.07385,3.74315 -2.36322,7.67911 -3.40731,11.13575 -1.04409,3.45664 -1.84283,6.43374 -2.85944,9.71351 -1.0166,3.27977 -2.25101,6.86199 -3.53387,10.52904 -1.28286,3.66705 -2.61409,7.41869 -3.73962,10.52902 -1.12553,3.11032 -2.04529,5.57914 -3.14661,8.14487 -1.10133,2.56572 -2.38414,5.22818 -4.03008,7.92703 -1.64594,2.69885 -3.65489,5.43392 -5.79702,8.21749 -2.14214,2.78356 -4.41734,5.61545 -6.92255,8.77419 -2.50521,3.15875 -5.24028,6.64415 -7.69707,9.51242 -2.45679,2.86828 -4.63517,5.11927 -6.88622,7.62448 -2.25106,2.50521 -4.57466,5.26449 -6.88623,8.01174 -2.31157,2.74726 -4.61097,5.48233 -6.66838,7.97545 -2.05742,2.49311 -3.87272,4.74408 -5.97856,7.16458 -2.10583,2.4205 -4.50205,5.01034 -6.7168,7.22508 -2.21475,2.21474 -4.2479,4.05426 -6.98306,6.03906 -2.73515,1.9848 -6.17215,4.11477 -9.59714,6.11167 -3.425,1.99691 -6.8378,3.86063 -10.63797,5.48236 -3.80017,1.62173 -7.98749,3.00137 -12.33228,4.22372 -4.34479,1.22235 -8.84675,2.28732 -13.38518,3.07398 -4.53842,0.78665 -9.11301,1.29494 -13.45779,1.5733 -4.34477,0.27835 -8.45949,0.32676 -12.84058,0.16943 -4.38109,-0.15734 -9.02829,-0.5204 -13.43358,-0.96819 -4.40528,-0.44779 -8.56842,-0.98028 -12.97371,-1.70643 -4.40528,-0.72615 -9.0525,-1.64591 -13.482,-2.78354 -4.42949,-1.13763 -8.64103,-2.49307 -12.84058,-3.89696 -4.19954,-1.40388 -8.38686,-2.85613 -13.43359,-4.57468 -5.04673,-1.71855 -10.95254,-3.70329 -16.1808,-5.70019 -5.22826,-1.99691 -9.77865,-4.00586 -14.30498,-6.09959 -4.52632,-2.09373 -9.02827,-4.2721 -13.68773,-6.75311 -4.65946,-2.48102 -9.47606,-5.26448 -12.67916,-7.41272 -3.2031,-2.14823 -4.79248,-3.66109 -7.24525,-5.8415 z"
      id="tree-24"
      tabindex="0"
@@ -130,7 +133,7 @@
      style:stroke-opacity={currentRingId >= 24 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 24 ? ringHoverStrokeWidth : 2.79001}
      style:pointer-events="all"
-     class="cursor-pointer"
+     class="cursor-pointer noselect"
      transform="matrix(0.52655886,0,0,0.52655886,-99.890763,25.58199)" />
     <path
      style="fill:none;fill-opacity:0;stroke:#041a50;stroke-width:1.26469;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -145,6 +148,7 @@
      style:stroke-opacity={currentRingId >= 23 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 23 ? ringHoverStrokeWidth : 1.26469}
      style:pointer-events="all"
+     style:user-select="none"
      transform="matrix(0.52655886,0,0,0.52655886,-99.890763,25.58199)" />
     <path
      style="fill:none;fill-opacity:0;stroke:#041a50;stroke-width:1.58085;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -159,6 +163,7 @@
      style:stroke-opacity={currentRingId >= 22 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 22 ? ringHoverStrokeWidth : 1.58085}
      style:pointer-events="all"
+     style:user-select="none"
      transform="matrix(0.52655886,0,0,0.52655886,-99.890763,25.58199)" />
     <path
      style="fill:none;fill-opacity:0;stroke:#041a50;stroke-width:1.58085;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -173,6 +178,7 @@
      style:stroke-opacity={currentRingId >= 21 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 21 ? ringHoverStrokeWidth : 1.58085}
      style:pointer-events="all"
+     style:user-select="none"
      transform="matrix(0.52655886,0,0,0.52655886,-99.890763,25.58199)" />
     <path
      style="fill:none;fill-opacity:0;stroke:#041a50;stroke-width:2.95094;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -187,6 +193,7 @@
      style:stroke-opacity={currentRingId >= 20 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 20 ? ringHoverStrokeWidth : 2.95094}
      style:pointer-events="all"
+     style:user-select="none"
      transform="matrix(0.52655886,0,0,0.52655886,-99.890763,25.58199)" />
     <path
      style="fill:none;fill-opacity:0;stroke:#041a50;stroke-width:2.2132;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -201,6 +208,7 @@
      style:stroke-opacity={currentRingId >= 19 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 19 ? ringHoverStrokeWidth : 2.2132}
      style:pointer-events="all"
+     style:user-select="none"
      transform="matrix(0.52655886,0,0,0.52655886,-99.890763,25.58199)" />
     <path
      style="fill:none;fill-opacity:0;stroke:#041a50;stroke-width:2.82412;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -215,6 +223,7 @@
      style:stroke-opacity={currentRingId >= 18 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 18 ? ringHoverStrokeWidth : 2.82412}
      style:pointer-events="all"
+     style:user-select="none"
      transform="matrix(0.52655886,0,0,0.52655886,-99.890763,25.58199)" />
     <path
      style="fill:none;fill-opacity:0;stroke:#041a50;stroke-width:3.29338;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -229,6 +238,7 @@
      style:stroke-opacity={currentRingId >= 17 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 17 ? ringHoverStrokeWidth : 3.29338}
      style:pointer-events="all"
+     style:user-select="none"
      transform="matrix(0.52914017,0,0,0.52809765,-100.59315,25.553924)" />
     <path
      style="display:inline;fill:none;fill-opacity:1;stroke:#041a50;stroke-width:1.58085;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -243,6 +253,7 @@
      style:stroke-opacity={currentRingId >= 16 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 16 ? ringHoverStrokeWidth : 1.58085}
      style:pointer-events="all"
+     style:user-select="none"
      transform="matrix(0.52655886,0,0,0.52655886,-99.890763,25.58199)" />
     <path
      style="display:inline;fill:none;fill-opacity:1;stroke:#041a50;stroke-width:2.63478;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -257,6 +268,7 @@
      style:stroke-opacity={currentRingId >= 15 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 15 ? ringHoverStrokeWidth : 2.63478}
      style:pointer-events="all"
+     style:user-select="none"
      transform="matrix(0.52655886,0,0,0.52655886,-99.890763,25.58199)" />
     <path
      style="display:inline;fill:none;fill-opacity:1;stroke:#041a50;stroke-width:1.79164;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -271,6 +283,7 @@
      style:stroke-opacity={currentRingId >= 14 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 14 ? ringHoverStrokeWidth : 1.79164}
      style:pointer-events="all"
+     style:user-select="none"
      transform="matrix(0.52655886,0,0,0.52655886,-99.890763,25.58199)" />
     <path
      style="display:inline;fill:none;fill-opacity:1;stroke:#041a50;stroke-width:1.58085;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -285,6 +298,7 @@
      style:stroke-opacity={currentRingId >= 13 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 13 ? ringHoverStrokeWidth : 1.58085}
      style:pointer-events="all"
+     style:user-select="none"
      transform="matrix(0.52655886,0,0,0.52655886,-99.890763,25.58199)" />
     <path
      style="display:inline;fill:none;fill-opacity:1;stroke:#041a50;stroke-width:2.31859;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -299,6 +313,7 @@
      style:stroke-opacity={currentRingId >= 12 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 12 ? ringHoverStrokeWidth : 1.79164}
      style:pointer-events="all"
+     style:user-select="none"
      transform="matrix(0.52655886,0,0,0.52655886,-99.890763,25.58199)" />
     <path
      style="display:inline;fill:none;fill-opacity:1;stroke:#041a50;stroke-width:1.89703;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -313,6 +328,7 @@
      style:stroke-opacity={currentRingId >= 11 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 11 ? ringHoverStrokeWidth : 1.89703}
      style:pointer-events="all"
+     style:user-select="none"
      transform="matrix(0.52946016,0,0,0.52960437,-101.3122,25.375168)" />
     <path
      style="display:inline;fill:none;fill-opacity:1;stroke:#041a50;stroke-width:2.2132;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -327,6 +343,7 @@
      style:stroke-opacity={currentRingId >= 10 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 10 ? ringHoverStrokeWidth : 2.2132}
      style:pointer-events="all"
+     style:user-select="none"
      transform="matrix(0.52655886,0,0,0.52655886,-99.890763,25.58199)" />
     <path
      style="display:inline;fill:none;fill-opacity:1;stroke:#041a50;stroke-width:2.10781;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -341,6 +358,7 @@
      style:stroke-opacity={currentRingId >= 9 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 9 ? ringHoverStrokeWidth : 2.10781}
      style:pointer-events="all"
+     style:user-select="none"
      transform="matrix(0.52655886,0,0,0.52655886,-99.890763,25.58199)" />
     <path
      style="display:inline;fill:none;fill-opacity:1;stroke:#041a50;stroke-width:3.08958;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -355,6 +373,7 @@
      style:stroke-opacity={currentRingId >= 8 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 8 ? ringHoverStrokeWidth : 3.08958}
      style:pointer-events="all"
+     style:user-select="none"
      transform="matrix(0.52655886,0,0,0.52655886,-99.890763,25.58199)" />
     <path
      style="display:inline;fill:none;fill-opacity:1;stroke:#041a50;stroke-width:1.89703;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -369,6 +388,7 @@
      style:stroke-opacity={currentRingId >= 7 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 7 ? ringHoverStrokeWidth : 1.89703}
      style:pointer-events="all"
+     style:user-select="none"
      transform="matrix(0.52655886,0,0,0.52655886,-99.890763,25.58199)" />
     <path
      style="display:inline;fill:none;fill-opacity:1;stroke:#041a50;stroke-width:2.10781;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -382,6 +402,7 @@
      style:stroke-opacity={currentRingId >= 6 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 6 ? ringHoverStrokeWidth : 2.10781}
      style:pointer-events="all"
+     style:user-select="none"
      role="button"
      transform="matrix(0.52655886,0,0,0.52655886,-99.890763,25.58199)" />
     <path
@@ -394,6 +415,7 @@
      style:stroke-opacity={currentRingId >= 5 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 5 ? ringHoverStrokeWidth : 1.58085}
      style:pointer-events="all"
+     style:user-select="none"
      id="tree-5"
      tabindex="0"
      role="button"
@@ -408,6 +430,7 @@
      style:stroke-opacity={currentRingId >= 4 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 4 ? ringHoverStrokeWidth : 2.63397}
      style:pointer-events="all"
+     style:user-select="none"
      id="tree-4"
      tabindex="0"
      role="button"
@@ -423,6 +446,7 @@
      style:stroke-opacity={currentRingId >= 3 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 3 ? ringHoverStrokeWidth : 3.37252}
      style:pointer-events="all"
+     style:user-select="none"
      id="tree-3"
      tabindex="0"
      transform="matrix(0.52655886,0,0,0.52655886,-99.890763,25.58199)" />
@@ -439,6 +463,7 @@
      style:stroke-opacity={currentRingId >= 2 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 2 ? ringHoverStrokeWidth : 2.63478}
      style:pointer-events="all"
+     style:user-select="none"
      transform="matrix(0.52655886,0,0,0.52655886,-99.890763,25.58199)" />
     <path
      style="display:inline;fill:none;fill-opacity:1;stroke:#041a50;stroke-width:3.00224;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
@@ -452,6 +477,7 @@
      style:stroke-opacity={currentRingId >= 1 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 1 ? ringHoverStrokeWidth : 3.00224}
      style:pointer-events="all"
+     style:user-select="none"
      role="button"
      transform="matrix(0.52655886,0,0,0.52655886,-99.890763,25.58199)" />
     </svg>

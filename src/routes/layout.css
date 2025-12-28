@@ -7,3 +7,14 @@
     --font-serif: 'Lora', serif;
     --default-font-family: 'Lora', serif;
 }
+
+.noselect {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.noselect:focus { outline: none !important;}
