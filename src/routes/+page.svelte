@@ -1,11 +1,19 @@
 <script lang="ts">
-	import Device from 'svelte-device-info'
 	import Tree from '$lib/assets/Tree.svelte';
+
+	import { onMount } from "svelte";
+
+  	let isMobile = false;
+
+	onMount(() => {
+		const media = window.matchMedia("(max-width: 480px)");
+		isMobile = media.matches;
+	});
 </script>
 
 <div class="space-y-2 m-2">
-	{#if Device.isMobile}
-		<div class="font-sans flex justify-center">
+	{#if isMobile}
+		<div class="block sm:hidden font-sans flex justify-center">
 			<div class="m-1">
 				<a class="hover:opacity-60 transition-opacity" href="/projects">about</a>
 			</div>
