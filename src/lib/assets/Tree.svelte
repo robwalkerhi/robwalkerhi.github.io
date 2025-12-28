@@ -70,7 +70,7 @@
 
 <div>
 {#if !isMobile }
-  <div class="font-sans m-1 mb-2">
+  <div class="font-sans m-1 mb-3">
     <div class="flex justify-center">
       <div class="m-1">
         <p>{@html text}</p>
