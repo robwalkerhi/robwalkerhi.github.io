@@ -11,7 +11,9 @@
 	<p>I deeply value <i>community</i>, <i>care</i>, and <i>kindness</i>, and strive to empower others to build
 		healthy and positive communities.</p>
 
-	<img src="{profile}" alt="Me standing in front of mountains.">
+	<div class="m-8">
+		<img src='/src/lib/assets/tree.svg' alt="me as a tree" class="w-3/4 m-auto"/>
+	</div>
 
 	<p>You can find out more about me on
 	<a href="https://www.threads.com/@robwalkerhi" class="font-bold hover:opacity-60 transition-opacity">threads</a>,
