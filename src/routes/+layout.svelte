@@ -19,6 +19,17 @@
 			<a href="/" class="hover:opacity-60 transition-opacity text-heading text-2xl">Rob Walker</a>
 		</div>
 	</div>
+	<div class="font-sans flex justify-center">
+		<div class="m-1">
+			<a class="hover:opacity-60 transition-opacity" href="/about">about</a>
+		</div>
+		<div class="m-1">
+			<a class="hover:opacity-60 transition-opacity" href="/projects">projects</a>
+		</div>
+		<div class="m-1">
+			<a class="hover:opacity-60 transition-opacity" href="/keepsakes">keepsakes</a>
+		</div>
+	</div>
 
 	{@render children()}
 </div>
