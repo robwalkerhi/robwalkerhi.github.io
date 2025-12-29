@@ -1,5 +1,5 @@
 <script lang="ts">
-	let { id, currentRingId, style, d, transform, onmouseover, onmouseleave, onclick, strokeWidth } = $props();
+	let { id, currentRingId, style, d, transform, onMouseOver, onMouseLeave, strokeWidth } = $props();
 
     let ringHoverStrokeWidth = 6.0;
     let ringHoverOpacity = 0.2;
@@ -10,9 +10,8 @@
     style={style}
     d={d}
     transform={transform}
-    onmouseover={onmouseover}
-    onmouseleave={(e) => onmouseleave(e)}
-    onclick={(e) => onclick(e)}
+    onmouseover={onMouseOver}
+    onmouseleave={onMouseLeave}
     role="button"
     tabindex="0"
     class="noselect"
