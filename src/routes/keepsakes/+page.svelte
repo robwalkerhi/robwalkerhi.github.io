@@ -113,6 +113,7 @@
 				<Keepsake item='<q>For what is grief, but love persevering?</q> from WandaVision' rationale="TODO" />
 				<Keepsake item='<q>When I am served half an egg at a restaurant, I wonder to myself: who has the other half of my egg? Two strangers; living their lives; sharing an egg.</q> (<a class="font-bold" href="https://x.com/Junferno/status/1841070931336445993">link</a>)' rationale="TODO" />
 				<Keepsake item='<q>pretty shitty how baseline human activities like singing, dancing and making art got turned into skills instead of being seen as behaviors \ so now it&#39;s like the point of doing them is to get good at them&#39; and not &#39;this is a thing humans do, the way birds sing and bees make hives&#39;.</q> (<a class="font-bold" href="https://x.com/rubycumulous/status/1388581085605474306">link</a>)' rationale="TODO" />
+				<Keepsake item='<q>I&#39;ve seen things you people wouldn&#39;t believe. Attack ships on fire off the shoulder of Orion. I watched C-beams glitter in the dark near the Tannhauser gate. All those moments will be lost in time, like tears in rain. Time to die.</q> from Blade Runner' rationale="TODO" />
 			</ul>
 		</div>
 	</div>

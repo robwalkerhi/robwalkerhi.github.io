@@ -4,9 +4,6 @@
 
   let defaultRingId = 1000;
 	let currentRingId = $state(defaultRingId);
-
-  let ringHoverStrokeWidth = 6.0;
-  let ringHoverOpacity = 0.2;
 	
 	function onMouseOver(e) {
     if (currentRingId === defaultRingId) {
@@ -19,7 +16,7 @@
     if (currentRingId === parseInt(e.target.id)) {
       currentRingId = defaultRingId;
     }
-	}	
+  }
 </script>
 
 <div>
