@@ -6,7 +6,7 @@
 
   let { isMobile } = $props();
 
-  let defaultText = 'welcome to me'
+  let defaultText = 'welcome'
   let text = $state(defaultText);
 
   let sliceIdx = 5;
@@ -49,18 +49,7 @@
 	}	
 
   function handleClick(e) {
-    let id = parseTreeId(e.target.id);
-    switch (id) {
-      case 26:
-        goto('/about');
-        break;
-      case 25:
-        goto('/projects')
-        break;
-      case 24:
-        goto('/keepsakes')
-        break;
-    }
+    return;
   }
 
   function parseTreeId(id) {
@@ -69,15 +58,6 @@
 </script>
 
 <div>
-{#if !isMobile }
-  <div class="font-sans m-1 mb-3">
-    <div class="flex justify-center">
-      <div class="m-1">
-        <p>{@html text}</p>
-      </div>
-    </div>
-  </div>
-{/if}
 
 <svg
    viewBox="0 0 204.75415 198.40756"
@@ -96,7 +76,7 @@
      id="tree-26"
      role="button"
      tabindex="0"
-     class="cursor-pointer noselect"
+     class="noselect"
      onmouseover={(e) => onEnter(e)}
      onfocus={(e) => {return;}}
      onmouseleave={(e) => onLeave(e)}
@@ -113,7 +93,7 @@
      id="tree-25"
      tabindex="0"
      role="button"
-     class="cursor-pointer noselect"
+     class="noselect"
      onmouseover={(e) => onEnter(e)}
      onfocus={(e) => {return;}}
      onmouseleave={(e) => onLeave(e)}
@@ -138,7 +118,7 @@
      style:stroke-opacity={currentRingId >= 24 || currentRingId === defaultRingId ? 1.0 : ringHoverOpacity}
      style:stroke-width={currentRingId === 24 ? ringHoverStrokeWidth : 2.79001}
      style:pointer-events="all"
-     class="cursor-pointer noselect"
+     class="noselect"
      transform="matrix(0.52655886,0,0,0.52655886,-99.890763,25.58199)" />
     <path
      style="fill:none;fill-opacity:0;stroke:#041a50;stroke-width:1.26469;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"

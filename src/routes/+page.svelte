@@ -12,19 +12,17 @@
 </script>
 
 <div class="space-y-2 m-2">
-	{#if isMobile}
-		<div class="block sm:hidden font-sans flex justify-center">
-			<div class="m-1">
-				<a class="hover:opacity-60 transition-opacity" href="/about">about</a>
-			</div>
-			<div class="m-1">
-				<a class="hover:opacity-60 transition-opacity" href="/projects">projects</a>
-			</div>
-			<div class="m-1">
-				<a class="hover:opacity-60 transition-opacity" href="/keepsakes">keepsakes</a>
-			</div>
+	<div class="font-sans flex justify-center">
+		<div class="m-1">
+			<a class="hover:opacity-60 transition-opacity" href="/about">about</a>
 		</div>
-	{/if}
+		<div class="m-1">
+			<a class="hover:opacity-60 transition-opacity" href="/projects">projects</a>
+		</div>
+		<div class="m-1">
+			<a class="hover:opacity-60 transition-opacity" href="/keepsakes">keepsakes</a>
+		</div>
+	</div>
 	<div class="w-7/8 m-auto">
 		<Tree isMobile={isMobile} />
 	</div>
