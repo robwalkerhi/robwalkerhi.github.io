@@ -54,17 +54,35 @@
 		<div>
 			<h3 class="font-sans text-lg">Videos</h3>
 			<ul class="list-disc list-outside ml-5 space-y-1">
-				<Keepsake item='<q>MAMA&#39;S EYES</q> by METTE (<a class="font-bold" href="https://www.youtube.com/watch?v=gi9OBRzbMNI">link</a>)' rationale="TODO" />
-				<Keepsake item='<q>End of the Tour: The Problem of Loneliness</q> (<a class="font-bold" href="https://www.youtube.com/watch?v=FCfpOugmd9E">link</a>)' rationale="TODO" />
-				<Keepsake item='<q>Spike Jonze for Apple HomePod — Welcome Home</q> (<a class="font-bold" href="https://www.youtube.com/watch?v=Xwc22EK8qE0">link</a>)' rationale="TODO" />
-				<Keepsake item='<q>Fred Again..:Tiny Desk Concert</q> by Fred Again, NPR (<a class="font-bold" href="https://www.youtube.com/watch?v=4iQmPv_dTI0&t=178s">link</a>)' rationale="TODO" />
+				<Keepsake
+					item='<q>MAMA&#39;S EYES</q> by METTE (<a class="font-bold" href="https://www.youtube.com/watch?v=gi9OBRzbMNI">link</a>)'
+					rationale="My brother M showed me this video and I promptly watched it on repeat for several days. It's one of the best uses of vignettes I've ever seen and changed my opinion about music videos (which I previously thought were too abstract and difficult to watch). In the days following my first watch, I mass texted this to several friends and group chats. I still feel awed whenever I watch it and am reminded that humans are creative and beautiful."
+				/>
+				<Keepsake
+					item='<q>End of the Tour: The Problem of Loneliness</q> (<a class="font-bold" href="https://www.youtube.com/watch?v=FCfpOugmd9E">link</a>)'
+					rationale="I like DFW's writing and spent a month reading <i>Infinite Jest</i> in high school (with a pen in hand to take annotations, which in hindsight is kind of a lot — but hey, I really liked literature!). I love this scene bc DFW's depiction of TV feels accurate and true and generalizable to a lot of digital space. The lines that resonated with me in particular are: <q>The technology is going to get better and better and it's going to get easier and easier and more and more convenient and more and more pleasurable to sit alone with images on a screen given to us by people who do not love us but who want our money.</q> This reminds me to be cautious about how I spend my time and in what dosage."
+				/>
+				<Keepsake
+					item='<q>Spike Jonze for Apple HomePod — Welcome Home</q> (<a class="font-bold" href="https://www.youtube.com/watch?v=Xwc22EK8qE0">link</a>)'
+					rationale="I feel self-conscious putting an ad in one of my keepsakes, but also the fact this is an ad is part of what makes this so cool — that it <i>is</i> an ad and that ads can also be beautiful and inspiring and artistic! Not linked here, but there is also an excellent behind-the-scenes video showing how the production team created this ad with only analog special effects, which stil blows me away."
+				/>
+				<Keepsake
+					item='<q>Fred Again..:Tiny Desk Concert</q> by Fred Again, NPR (<a class="font-bold" href="https://www.youtube.com/watch?v=4iQmPv_dTI0&t=178s">link</a>)'
+					rationale="I had no idea who Fred Again was until 2024 when a coworker asked if I wanted to see him perform at the Frost Ampitheatre at Stanford. I said yes, still knowing nothing about him, and then showed up and was blown away. Prior to that concert I never held EDM/house/dance musc in high esteem, especially live shows. Afterwards, house (and in particular UK garage) has become one of my top genres. I think this Tiny Desk illustrates why and shows the passion and creativity and attention to detail of someone dedicated to their craft."
+				/>
 			</ul>
 		</div>
 		<div>
 			<h3 class="font-sans text-lg">TV</h3>
 			<ul class="list-disc list-outside ml-5 space-y-1">
-				<Keepsake item="Fleabag" rationale="TODO" />
-				<Keepsake item="Arcane" rationale="TODO" />
+				<Keepsake
+					item="Fleabag"
+					rationale="TODO" 
+				/>
+				<Keepsake
+					item="Arcane"
+					rationale="I went into this show with incredibly low expectations, mainly bc the only thing I knew about it was that it was based on League of Legends, and my only exposure to LoL were the people in my year in high school who were obsessed with it and who I generally did not get along with or look up to. Suffice to say, the show knocked my socks off. It has some of the best writing, plot, and character development of any show I've seen. Of the animated media I've seen, it is one of the most beautiful and artfully made, with some of the stills looking like they could be framed in a gallery. It is progressive in a freeing and understated way that builds its own standalone world without defining it in relation or in contrast to our own. I cried at several points in this show (s1e3, s1e9, s2e7, s2e8, s2e9) and felt a sense of grief when I finished it, which I've only feel for books and universes that felt so real I got lost in them."
+				/>
 				<Keepsake item="Succession" rationale="TODO" />
 			</ul>
 		</div>
@@ -81,7 +99,10 @@
 			<h3 class="font-sans text-lg">Music</h3>
 			<ul class="list-disc list-outside ml-5 space-y-1">
 				<Keepsake item='<q>Think Fast</q> by Dominic Fike feat. Weezer' rationale="TODO" />
-				<Keepsake item='<q>It&#39;s Called: Freefall</q> by Rainbow Kitten Surprise' rationale="TODO" />
+				<Keepsake
+					item='<q>It&#39;s Called: Freefall</q> by Rainbow Kitten Surprise'
+					rationale="TODO"
+				/>
 				<Keepsake item='<q>Flimsier</q> by King Krule' rationale="TODO" />
 				<Keepsake item='<q>LIE DOWN</q> by Saya Gray' rationale="TODO" />
 				<Keepsake item='<q>Leonard Cohen</q> by boygenius' rationale="TODO" />
