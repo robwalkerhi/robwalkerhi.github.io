@@ -1,21 +1,21 @@
 <script>
-  import { goto } from '$app/navigation';
-  import TreeRing from './TreeRing.svelte'
+	import TreeRing from './TreeRing.svelte'
 
-  let defaultRingId = 1000;
+	let {selectedRingId, onClick} = $props();
+
+	let defaultRingId = 1000;
 	let currentRingId = $state(defaultRingId);
 	
 	function onMouseOver(e) {
-    if (currentRingId === defaultRingId) {
-      currentRingId = parseInt(e.target.id);
-    } else if (newId < currentRingId) {
-      currentRingId = defaultRingId;
-    }
+		let newId = parseInt(e.target.id)
+		if (currentRingId === defaultRingId) {
+			currentRingId = newId;
+		}
 	}
-  function onMouseLeave(e) {		
-    if (currentRingId === parseInt(e.target.id)) {
-      currentRingId = defaultRingId;
-    }
+	function onMouseLeave(e) {		
+		if (currentRingId === parseInt(e.target.id)) {
+			currentRingId = defaultRingId;
+		}
   }
 </script>
 
@@ -28,8 +28,7 @@
     role="button"
     xml:space="preserve"
     xmlns:xlink="http://www.w3.org/1999/xlink"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:svg="http://www.w3.org/2000/svg">
+    xmlns="http://www.w3.org/2000/svg">
     <defs id="defs1" />
     <TreeRing 
       id={26}
@@ -39,7 +38,7 @@
       strokeWidth={5.30799}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={25}
@@ -49,7 +48,7 @@
       strokeWidth={1.05391}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={24}
@@ -59,7 +58,7 @@
       strokeWidth={2.79001}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={23}
@@ -69,7 +68,7 @@
       strokeWidth={1.26469}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={22}
@@ -79,7 +78,7 @@
       strokeWidth={1.58085}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={21}
@@ -89,7 +88,7 @@
       strokeWidth={1.58085}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={20}
@@ -99,7 +98,7 @@
       strokeWidth={2.95094}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={19}
@@ -109,7 +108,7 @@
       strokeWidth={2.2132}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={18}
@@ -119,7 +118,7 @@
       strokeWidth={2.82412}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={17}
@@ -129,7 +128,7 @@
       strokeWidth={3.29338}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={16}
@@ -139,7 +138,7 @@
       strokeWidth={1.58085}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={15}
@@ -149,7 +148,7 @@
       strokeWidth={1.58085}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={14}
@@ -159,7 +158,7 @@
       strokeWidth={1.79164}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={13}
@@ -169,7 +168,7 @@
       strokeWidth={1.58085}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={12}
@@ -179,7 +178,7 @@
       strokeWidth={2.31859}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={11}
@@ -189,7 +188,7 @@
       strokeWidth={1.89703}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={10}
@@ -199,7 +198,7 @@
       strokeWidth={2.2132}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={9}
@@ -209,7 +208,7 @@
       strokeWidth={2.10781}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={8}
@@ -219,7 +218,7 @@
       strokeWidth={3.08958}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={7}
@@ -229,7 +228,7 @@
       strokeWidth={1.89703}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={6}
@@ -239,7 +238,7 @@
       strokeWidth={2.10781}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={5}
@@ -249,7 +248,7 @@
       strokeWidth={1.58085}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={4}
@@ -259,7 +258,7 @@
       strokeWidth={2.63397}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={3}
@@ -269,7 +268,7 @@
       strokeWidth={3.37252}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={2}
@@ -279,7 +278,7 @@
       strokeWidth={2.63478}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
     <TreeRing
       id={1}
@@ -289,7 +288,7 @@
       strokeWidth={3.00224}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}
-      currentRingId={currentRingId}
+      currentRingId={currentRingId} selectedRingId={selectedRingId} onClick={onClick}
     />
   </svg>
 </div>

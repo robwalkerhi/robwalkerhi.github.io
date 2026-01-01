@@ -77,64 +77,147 @@
 			<ul class="list-disc list-outside ml-5 space-y-1">
 				<Keepsake
 					item="Fleabag"
-					rationale="TODO" 
+					rationale="I first watched Fleabag after my brother recommended it, and it took a while for me to get into it. I think it finally <q>clicked</q> for me after s2, and it's become my most rewatched TV show. It is brilliant. I quote this show often, and the dinner party scene in s2e1 is one of the best done scenes ever. I also find the show comforting and redeeming, and lean into it when I feel angst." 
 				/>
 				<Keepsake
 					item="Arcane"
 					rationale="I went into this show with incredibly low expectations, mainly bc the only thing I knew about it was that it was based on League of Legends, and my only exposure to LoL were the people in my year in high school who were obsessed with it and who I generally did not get along with or look up to. Suffice to say, the show knocked my socks off. It has some of the best writing, plot, and character development of any show I've seen. Of the animated media I've seen, it is one of the most beautiful and artfully made, with some of the stills looking like they could be framed in a gallery. It is progressive in a freeing and understated way that builds its own standalone world without defining it in relation or in contrast to our own. I cried at several points in this show (s1e3, s1e9, s2e7, s2e8, s2e9) and felt a sense of grief when I finished it, which I've only feel for books and universes that felt so real I got lost in them."
 				/>
-				<Keepsake item="Succession" rationale="TODO" />
+				<Keepsake
+					item="Succession"
+					rationale="Another incredible show with some of the best writing around. This is a show that keeps on giving: the plot, character development, and one-liners never cease to be entertaining and surprising and yet just making perfect sense. Logan Roy as a character is terrifying and brutal but also has a dynamism that makes him the most entertaining and likable characters (he reminds me of the Judge from <i>Blood Meridian</i> or Satan in <i>Paradise Lost</i> for that reason). Everyone should watch this show."
+				/>
 			</ul>
 		</div>
 		<div>
 			<h3 class="font-sans text-lg">Short Stories</h3>
 			<ul class="list-disc list-outside ml-5 space-y-1">
-				<Keepsake item='<q>The Heat Death of the Universe</q> by Pamela Zoline' rationale="TODO" />
-				<Keepsake item='<q>The Machine Stops</q> by E.M. Forster' rationale="TODO" />
-				<Keepsake item='<q>Story of Your Life</q> by Ted Chiang' rationale="TODO" />
-				<Keepsake item='<q>Burning Chrome</q> by William Gibson' rationale="TODO" />
+				<Keepsake
+					item='<q>The Heat Death of the Universe</q> by Pamela Zoline'
+					rationale="I read this short story in my senior fall English sci-fi class and wrote one of my favorite essays ever about it. I think about this short story whenever I think about housework, and think it is a powerful portrait of the entrapment of women performing unpaid labor as housewives." 
+				/>
+				<Keepsake
+					item='<q>The Machine Stops</q> by E.M. Forster'
+					rationale="I cried at the end of this short story. A theme that tends to really get me is <q>doomed person who naively hopes anyway</q> or <q>weak reliant person is overpowered and destroyed by the strong.</q> I think this story is more of the latter, and I think of it whenever I think of automation and the fragility of society." />
+				<Keepsake
+					item='<q>Story of Your Life</q> by Ted Chiang'
+					rationale="I cried during and at the end of this short story. I watched <i>Arrival</i> first, and actually preferred the short story (I'm a big Denis Villeneuve fan, but was not a fan of the stereotypical Chinese general subplot). I love the question underlying the story — if you know the end is tragic, should you do it anyways? — and kind of connect it to Martha Nussbaum's philosophy of a good life being inherently tragic. I affirm that, yes, you should do it anyways."
+				/>
+				<Keepsake
+					item='<q>Burning Chrome</q> by William Gibson'
+					rationale="I read this short story after reading <i>Neuromancer</i> (the novel-length adaptation of the short story). I found it incredibly creative and new and, in a way, similar to the world-building of the Jabberwocky. I think it is an excellent example of the power of sci-fi and creativity and not needing to intellectually understand in order to feel the emotional weight of a story."
+				/>
 			</ul>
 		</div>
 		<div>
 			<h3 class="font-sans text-lg">Music</h3>
 			<ul class="list-disc list-outside ml-5 space-y-1">
-				<Keepsake item='<q>Think Fast</q> by Dominic Fike feat. Weezer' rationale="TODO" />
+				<Keepsake
+					item='<q>Think Fast</q> by Dominic Fike feat. Weezer'
+					rationale="TODO"
+				/>
 				<Keepsake
 					item='<q>It&#39;s Called: Freefall</q> by Rainbow Kitten Surprise'
 					rationale="TODO"
 				/>
-				<Keepsake item='<q>Flimsier</q> by King Krule' rationale="TODO" />
-				<Keepsake item='<q>LIE DOWN</q> by Saya Gray' rationale="TODO" />
-				<Keepsake item='<q>Leonard Cohen</q> by boygenius' rationale="TODO" />
-				<Keepsake item='<q>Hallelujah</q> by Jeff Buckley' rationale="TODO" />
-				<Keepsake item='<q>warm glow</q> by Hippo Campus' rationale="TODO" />
-				<Keepsake item='<q>Ballade No. 1 in G Minor Op. 23</q> by Chopin' rationale="TODO" />
-				<Keepsake item='<q>Ballade No. 4 in F Minor Op. 52</q> by Chopin' rationale="TODO" />
-				<Keepsake item='<q>Prelude in C-Sharp Minor, Op. 3, No. 2</q> by Rachmaninoff' rationale="TODO" />
-				<Keepsake item='<q>Heart-Shaped Box</q> by Nirvana' rationale="TODO" />
-				<Keepsake item='<q>Seigfried</q> by Frank Ocean' rationale="TODO" />
+				<Keepsake
+					item='<q>Flimsier</q> by King Krule'
+					rationale="TODO"
+				/>
+				<Keepsake
+					item='<q>LIE DOWN</q> by Saya Gray'
+					rationale="TODO" 
+				/>
+				<Keepsake
+					item='<q>Leonard Cohen</q> by boygenius'
+					rationale="TODO"
+				/>
+				<Keepsake
+					item='<q>Hallelujah</q> by Jeff Buckley'
+					rationale="TODO"
+				/>
+				<Keepsake
+					item='<q>warm glow</q> by Hippo Campus'
+					rationale="TODO"
+				/>
+				<Keepsake
+					item='<q>Ballade No. 1 in G Minor Op. 23</q> by Chopin'
+					rationale="TODO"
+				/>
+				<Keepsake
+					item='<q>Ballade No. 4 in F Minor Op. 52</q> by Chopin'
+					rationale="TODO"
+				/>
+				<Keepsake
+					item='<q>Prelude in C-Sharp Minor, Op. 3, No. 2</q> by Rachmaninoff'
+					rationale="TODO"
+				/>
+				<Keepsake
+					item='<q>Heart-Shaped Box</q> by Nirvana'
+					rationale="TODO"
+				/>
+				<Keepsake
+					item='<q>Seigfried</q> by Frank Ocean'
+					rationale="TODO"
+				/>
 			</ul>
 		</div>
 		<div>
 			<h3 class="font-sans text-lg">Artists</h3>
 			<ul class="list-disc list-outside ml-5 space-y-1">
-				<Keepsake item="Alberto Giacometti" rationale="TODO" />
-				<Keepsake item="Albert Bierstadt" rationale="TODO" />
-				<Keepsake item="Frederic Edwin Church" rationale="TODO" />
+				<Keepsake
+					item="Alberto Giacometti"
+					rationale="I saw Giacometti's artwork for the first time at the Guggenheim in 2017-ish, and remember it as one of the first times I felt emotionally impacted by sculpture. It is so different and bleak and raw. I haven't seen much of his other work, but I'll always try to check out his art if it's shown at a museum."
+				/>
+				<Keepsake
+					item="Albert Bierstadt"
+					rationale="I first heard about Bierstadt on a TikTok summary of artists who paint beautiful nature scenes. I love his work and think it does an amazing job capturing the grandeur of mountains (which are for some reason so difficult / impossible to capture in photographs)."
+				/>
+				<Keepsake
+					item="Frederic Edwin Church"
+					rationale="Similar to Bierstadt, I first heard about Church on a TikTok summary of artists who paint beautiful sunsets. I love sunsets and have v fond memories of pausing our dinner or day to watch the sunset at my grandmother's cabin, often walking down to the lake to do so. Church's sunsets remind me of that."
+				/>
 			</ul>
 		</div>
 		<div>
 			<h3 class="font-sans text-lg">Quotes</h3>
 			<ul class="list-disc list-outside ml-5 space-y-1">
-				<Keepsake item='<q>Live by the harmless untruths that make you brave and kind and healthy and happy.</q> from <i>Cat&#39;s Cradle</i> by Kurt Vonnegut' rationale="TODO" />
-				<Keepsake item='<q>Why would you believe in something awful when you could believe in something wonderful?</q> from <i>Fleabag</i> by Phoebe Waller-Bridge' rationale="TODO" />
-				<Keepsake item='<q>In romantic relationships, you should always be yourself, because the worst that can happen is something that wasn&#39;t going to work out doesn&#39;t.</q> from a 2018 lecture by Louis Menand in Humanities 10a (paraphrased)' rationale="TODO" />
-				<Keepsake item='<q>We rip out so much of ourselves to be cured of things faster that we go bankrupt by the age of thirty, and have less to offer each time we start with someone new. But to make yourself feel nothing, so as not to feel anything — what a waste!</q> from <i>Call Me By Your Name</i> by André Aciman' rationale="TODO" />
-				<Keepsake item='<q>We live in capitalism. Its power seems inescapable. So did the divine right of kings. Any human power can be resisted and changed by human beings. Resistance and change often begin in art, and very often in our art, the art of words.</q> by Ursula K. Le Guin (<a class="font-bold" href="https://www.youtube.com/watch?v=s2v7RDyo7os&t=610s">link</a>)' rationale="TODO" />
-				<Keepsake item='<q>For what is grief, but love persevering?</q> from WandaVision' rationale="TODO" />
-				<Keepsake item='<q>When I am served half an egg at a restaurant, I wonder to myself: who has the other half of my egg? Two strangers; living their lives; sharing an egg.</q> (<a class="font-bold" href="https://x.com/Junferno/status/1841070931336445993">link</a>)' rationale="TODO" />
-				<Keepsake item='<q>pretty shitty how baseline human activities like singing, dancing and making art got turned into skills instead of being seen as behaviors \ so now it&#39;s like the point of doing them is to get good at them&#39; and not &#39;this is a thing humans do, the way birds sing and bees make hives&#39;.</q> (<a class="font-bold" href="https://x.com/rubycumulous/status/1388581085605474306">link</a>)' rationale="TODO" />
-				<Keepsake item='<q>I&#39;ve seen things you people wouldn&#39;t believe. Attack ships on fire off the shoulder of Orion. I watched C-beams glitter in the dark near the Tannhauser gate. All those moments will be lost in time, like tears in rain. Time to die.</q> from Blade Runner' rationale="TODO" />
+				<Keepsake
+					item='<q>Live by the harmless untruths that make you brave and kind and healthy and happy.</q> from <i>Cat&#39;s Cradle</i> by Kurt Vonnegut'
+					rationale="TODO"
+				/>
+				<Keepsake
+					item='<q>Why would you believe in something awful when you could believe in something wonderful?</q> from <i>Fleabag</i> by Phoebe Waller-Bridge'
+					rationale="TODO"
+				/>
+				<Keepsake
+					item='<q>In romantic relationships, you should always be yourself, because the worst that can happen is something that wasn&#39;t going to work out doesn&#39;t.</q> from a 2018 lecture by Louis Menand in Humanities 10a (paraphrased)'
+					rationale="TODO"
+				/>
+				<Keepsake
+					item='<q>We rip out so much of ourselves to be cured of things faster that we go bankrupt by the age of thirty, and have less to offer each time we start with someone new. But to make yourself feel nothing, so as not to feel anything — what a waste!</q> from <i>Call Me By Your Name</i> by André Aciman'
+					rationale="TODO"
+				/>
+				<Keepsake
+					item='<q>We live in capitalism. Its power seems inescapable. So did the divine right of kings. Any human power can be resisted and changed by human beings. Resistance and change often begin in art, and very often in our art, the art of words.</q> by Ursula K. Le Guin (<a class="font-bold" href="https://www.youtube.com/watch?v=s2v7RDyo7os&t=610s">link</a>)'
+					rationale="TODO"
+				/>
+				<Keepsake
+					item='<q>For what is grief, but love persevering?</q> from WandaVision'
+					rationale="TODO"
+				/>
+				<Keepsake
+					item='<q>When I am served half an egg at a restaurant, I wonder to myself: who has the other half of my egg? Two strangers; living their lives; sharing an egg.</q> (<a class="font-bold" href="https://x.com/Junferno/status/1841070931336445993">link</a>)'
+					rationale="TODO"
+				/>
+				<Keepsake
+					item='<q>pretty shitty how baseline human activities like singing, dancing and making art got turned into skills instead of being seen as behaviors \ so now it&#39;s like the point of doing them is to get good at them&#39; and not &#39;this is a thing humans do, the way birds sing and bees make hives&#39;.</q> (<a class="font-bold" href="https://x.com/rubycumulous/status/1388581085605474306">link</a>)'
+					rationale="TODO"
+				/>
+				<Keepsake
+					item='<q>I&#39;ve seen things you people wouldn&#39;t believe. Attack ships on fire off the shoulder of Orion. I watched C-beams glitter in the dark near the Tannhauser gate. All those moments will be lost in time, like tears in rain. Time to die.</q> from Blade Runner'
+					rationale="TODO"
+				/>
 			</ul>
 		</div>
 	</div>
