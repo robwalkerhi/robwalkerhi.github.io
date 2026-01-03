@@ -16,7 +16,7 @@
 
 </script>
 
-<div class="w-3/4 m-auto mt-8" use:clickoutside onclickoutside={onClickOutside}>
+<div class="sm:w-3/4 m-auto mt-8" use:clickoutside onclickoutside={onClickOutside}>
 	<Tree
 		selectedRingId={selectedRingId}
 		onClick={onClick}
