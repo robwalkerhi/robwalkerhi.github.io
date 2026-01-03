@@ -18,7 +18,7 @@
 				/>
 				<Keepsake
 					item="<i>East of Eden</i> by John Steinbeck"
-					rationale="I was sobbing for probably the last 150 pages of this book. As someone who struggles with shame and judgement and being <q>Good</q>, this book hit hard. Stenbeck was my first favorite author (so I associate him with developing my own sense of taste) and I often think of his affectionate writing on California whenever I venture into the valleys/hills/mountains around SF. My favorite quote from this book: <q>And now that you don't have to be perfect, you can be good.</q>"
+					rationale="I cried at the end of this book. I love this book as a portrait of the human experience of shame and judgement and being <q>Good</q>, this book hit hard. Stenbeck was my first favorite author (so I associate him with developing my own sense of taste) and I often think of his affectionate writing on California whenever I venture into the valleys/hills/mountains around SF. My favorite quote from this book: <q>And now that you don't have to be perfect, you can be good.</q>"
 				/>
 			</ul>
 		</div>
@@ -27,15 +27,15 @@
 			<ul class="list-disc list-outside ml-5 space-y-1">
 				<Keepsake
 					item='<q>Masks</q> by Shel Silverstein'
-					rationale="I can have pretty strong social anxiety and generally struggle with <q>being myself</q> and have a tendency for hypervigilance / performance around others. This brief poem is a consistent reminder for me of the costs of performance and inauthenticity. Also, one of the last pieces of advice my grandmother gave before passing at 103yrs old was to be yourself bc life is too short to be anything else. Lastly, I love that this is a poem for children and yet holds such a powerful message for adults." 
+					rationale="I can feel anxious in social settings and sometimes struggle with being myself. This brief poem is a consistent reminder for me of the costs of performance and inauthenticity. Also, one of the last pieces of advice my grandmother gave before passing at 103yrs old was to be yourself bc life is too short to be anything else. Lastly, I love that this is a poem for children and yet holds such a powerful message for adults." 
 				/>
 				<Keepsake
 					item='<q>The Missing Piece</q> by Shel Silverstein'
-					rationale="I generally struggle to feel like I fit in despite wanting to. When I feel more therapy-y I sometimes think this started with being the youngest of four boys with a decent age gap, meaning I was usually seeking the validation and inclusion of people older/better than me. This was reinforced in high school where I was the only crew athlete in my year and so my main friend group was the year above. Sometimes I even worry that as soon as I begin fitting in somewhere I panic because it feels stifling and unfamiliar. This poem reminds me that I don't have to fit in anywhere to be complete and can roll on my own while still having strong relationships with others."
+					rationale="I can struggle to feel like I fit in, and this poem reminds me that I don't have to fit in anywhere to be complete and can roll on my own while still having strong relationships with others."
 				/>
 				<Keepsake
 					item='<q>One Art</q> by Elizabeth Bishop'
-					rationale="Whenever I feel heartbroken or experience loss I read this poem and feel comforted knowing it will pass. I first read it during my junior year English class and it sparked my love of Bishop. My only qualm is the <q>(write it!)</q> in the last line, but it has grown on me over time."
+					rationale="Whenever I experience loss I read this poem and feel comforted knowing it will pass. I first read it during my junior year English class and it sparked my love of Bishop. My only qualm is the <q>(write it!)</q> in the last line, but it has grown on me over time."
 				/>
 				<Keepsake
 					item='<q>The Fish</q> by Elizabeth Bishop'
@@ -47,7 +47,7 @@
 				/>
 				<Keepsake
 					item='<q>Sick Goat</q> by Mikko Harvey'
-					rationale="My friend/ex shared this poem with me and it's become one of my favorite breakup poems. I don't have many coherent thoughts aside from that it gives me comfort. I appreciate the imagery and the vignettes that take you away from the described moment (i.e., intentionally breaking your favorite bowl in a kitchen). I like how the narrator's bowl-breaking is an attempt to reclaim control despite that, as recognized by the narrator, this is actually an act of losing control. I feel this poem accurately captures the numbness, emptiness, loss, pain, and turmoil that I feel during a breakup, and have come back to it often."
+					rationale="My friend/ex shared this poem with me and it's become one of my favorite breakup poems. I don't have many coherent thoughts aside from that it gives me comfort. I appreciate the imagery and the vignettes that take you away from the described moment (i.e., intentionally breaking your favorite bowl in a kitchen). I like how the narrator's bowl-breaking is an attempt to reclaim control despite that, as recognized by the narrator, this is actually an act of losing control. I feel this poem accurately captures the numbness, emptiness, loss, pain, and turmoil of breakups, and I've come back to it often."
 				/>
 			</ul>
 		</div>
@@ -113,52 +113,52 @@
 			<h3 class="font-sans text-lg">Music</h3>
 			<ul class="list-disc list-outside ml-5 space-y-1">
 				<Keepsake
-					item='<q>Think Fast</q> by Dominic Fike feat. Weezer'
-					rationale="TODO"
+					item='<q>It&#39;s Called: Freefall</q> by Rainbow Kitten Surprise'
+					rationale="This is my first favorite song. I started listening to RKS over my gap year before college, and became an intense fan. I eagerly awaited their new album and this song stuck out in particular. I love the focus on relaxing control, although the dark side of the song relates less."
 				/>
 				<Keepsake
-					item='<q>It&#39;s Called: Freefall</q> by Rainbow Kitten Surprise'
-					rationale="TODO"
+					item='<q>Think Fast</q> by Dominic Fike feat. Weezer'
+					rationale="I love this song and frequently listen to it on long runs. I first learned about Dominic Fike after watching Euphoria s2 and feeling confused why a character would have a 2min song scene. He has since become one of my top artists."
 				/>
 				<Keepsake
 					item='<q>Flimsier</q> by King Krule'
-					rationale="TODO"
+					rationale="I first started listening to King Krule on recommendation from a friend in my high school jazz band. I love his raw and gritty sound, and this song sticks out in particular."
 				/>
 				<Keepsake
 					item='<q>LIE DOWN</q> by Saya Gray'
-					rationale="TODO" 
+					rationale="My brother put me onto Saya Gray and she's become one of my favorite artists, and I was lucky to see her live at Rickshaw Stop in SF. This song helped me through a break-up and is one of her easier songs to listen to (other fav songs are <q>Cervical Cedric</q>, <q>Pap Test</q>, <q>SHELL (OF A MAN)</q>, and <q>IF THERE'S NO SEAT IN THE SKY (WILL YOU FORGIVE ME???)</q>)." 
 				/>
 				<Keepsake
 					item='<q>Leonard Cohen</q> by boygenius'
-					rationale="TODO"
+					rationale="I love boygenius and still have strong memories of driving down El Camino Real after a break-up to the Punisher album. This is one of my favorite songs by them and captures deeply human themes — being known, the fear of being liked less after being known, imperfection, and the self-consciousness of earnestness."
 				/>
 				<Keepsake
 					item='<q>Hallelujah</q> by Jeff Buckley'
-					rationale="TODO"
+					rationale="A classic, and Buckley's version is IMO the best. I listened to a podcast by Malcolm Gladwell (not a huge fan of him but I liked this episode) that talked about the development of Hallelujah, and how it only really came together as we know it after Buckley. It is raw and somber and hopeful and feels deeply human to me."
 				/>
 				<Keepsake
 					item='<q>warm glow</q> by Hippo Campus'
-					rationale="TODO"
+					rationale="I listened to this song on a difficult hike up a mountain along the TMB and the climax hit just as we arrived at the top with a spectacular view. Epic."
 				/>
 				<Keepsake
 					item='<q>Ballade No. 1 in G Minor Op. 23</q> by Chopin'
-					rationale="TODO"
+					rationale="I first heard this song while watching The Pianist (which features an abridged version) and it sparked my return to playing classical piano after stopping in Grade 8. It is enchanting with powerful ups and downs and ending with a powerful and bold coda. I have been learning the full piece for a couple years (and can currently play the abridged version in full). I also love that Choping has said the song is about solitude, and I play this song as catharsis."
 				/>
 				<Keepsake
 					item='<q>Ballade No. 4 in F Minor Op. 52</q> by Chopin'
-					rationale="TODO"
+					rationale="Not as big of a fan of Ballade No. 1, but I love this Ballade. Since there are four ballads, I think it would have been fun if each one of my brothers and I learned one of them."
 				/>
 				<Keepsake
 					item='<q>Prelude in C-Sharp Minor, Op. 3, No. 2</q> by Rachmaninoff'
-					rationale="TODO"
+					rationale="This song really messed up my day once. It is so stressful and dark. But also so beautiful and powerful. I would love to learn it so I can play these chords during anger."
 				/>
 				<Keepsake
 					item='<q>Heart-Shaped Box</q> by Nirvana'
-					rationale="TODO"
+					rationale="Not a huge Nirvana fan, but I love this song and its music video."
 				/>
 				<Keepsake
 					item='<q>Seigfried</q> by Frank Ocean'
-					rationale="TODO"
+					rationale="Blonde is one of the first albums I listened to all the way through, and this song stuck out. It is beautiful and somber. Big fan."
 				/>
 			</ul>
 		</div>
@@ -184,39 +184,39 @@
 			<ul class="list-disc list-outside ml-5 space-y-1">
 				<Keepsake
 					item='<q>Live by the harmless untruths that make you brave and kind and healthy and happy.</q> from <i>Cat&#39;s Cradle</i> by Kurt Vonnegut'
-					rationale="TODO"
+					rationale="I love this quote because it highlights how we can choose truths that help us. I don't mean this in a truth-is-unimportant way, but more in cases where there are gaps that we can fill with kindnesses. I think this represents some of my frustrations with rationalism, which seems to prioritize choosing the most brutal/contrarian truths possible over kinder truths."
 				/>
 				<Keepsake
 					item='<q>Why would you believe in something awful when you could believe in something wonderful?</q> from <i>Fleabag</i> by Phoebe Waller-Bridge'
-					rationale="TODO"
+					rationale="Similar to the <i>Cat's Cradle</i> quote, this quote shows the power of choice in how we view the world. If there are unknowns, why not fill with them with kinder beliefs?"
 				/>
 				<Keepsake
 					item='<q>In romantic relationships, you should always be yourself, because the worst that can happen is something that wasn&#39;t going to work out doesn&#39;t.</q> from a 2018 lecture by Louis Menand in Humanities 10a (paraphrased)'
-					rationale="TODO"
+					rationale="I find this quote comforting and realistic and kind. It takes away the sting of the fear of rejection, and shows that sometimes the consequence of rejection is not as big as our fear of it."
 				/>
 				<Keepsake
 					item='<q>We rip out so much of ourselves to be cured of things faster that we go bankrupt by the age of thirty, and have less to offer each time we start with someone new. But to make yourself feel nothing, so as not to feel anything — what a waste!</q> from <i>Call Me By Your Name</i> by André Aciman'
-					rationale="TODO"
+					rationale="I love this quote and it has helped me pick myself up after  heartbreak and not become hardened."
 				/>
 				<Keepsake
 					item='<q>We live in capitalism. Its power seems inescapable. So did the divine right of kings. Any human power can be resisted and changed by human beings. Resistance and change often begin in art, and very often in our art, the art of words.</q> by Ursula K. Le Guin (<a class="font-bold" href="https://www.youtube.com/watch?v=s2v7RDyo7os&t=610s">link</a>)'
-					rationale="TODO"
+					rationale="I sometimes find critiques of capitalism to be sophomoric, but I love this quote. It is an argument against apathy and encourages us to challenge the status quo and envision a better future. I find it inspiring."
 				/>
 				<Keepsake
 					item='<q>For what is grief, but love persevering?</q> from WandaVision'
-					rationale="TODO"
+					rationale="I love this quote, and the fact that it came from what many would consider a lowbrow show makes me love it more. I think it's beautiful."
 				/>
 				<Keepsake
 					item='<q>When I am served half an egg at a restaurant, I wonder to myself: who has the other half of my egg? Two strangers; living their lives; sharing an egg.</q> (<a class="font-bold" href="https://x.com/Junferno/status/1841070931336445993">link</a>)'
-					rationale="TODO"
+					rationale="This poem can be read as a shitpost but it's also beautiful and profound, which I love. It takes an everyday situation and makes me think <q>huh, that is kind of beautiful!</q>."
 				/>
 				<Keepsake
 					item='<q>pretty shitty how baseline human activities like singing, dancing and making art got turned into skills instead of being seen as behaviors \ so now it&#39;s like the point of doing them is to get good at them&#39; and not &#39;this is a thing humans do, the way birds sing and bees make hives&#39;.</q> (<a class="font-bold" href="https://x.com/rubycumulous/status/1388581085605474306">link</a>)'
-					rationale="TODO"
+					rationale="I love this quote as an argument against perfectionist pursuits. Instead, we should just enjoy art-making as an innately human thing and be proud of imperfections."
 				/>
 				<Keepsake
 					item='<q>I&#39;ve seen things you people wouldn&#39;t believe. Attack ships on fire off the shoulder of Orion. I watched C-beams glitter in the dark near the Tannhauser gate. All those moments will be lost in time, like tears in rain. Time to die.</q> from Blade Runner'
-					rationale="TODO"
+					rationale="For some reason I disliked Blade Runner when I first watched it but it has stuck with me more than most other movies, and I now love it. This quote — from the dying antagonist replicant — beautifully captures impermanence and sonder."
 				/>
 			</ul>
 		</div>
