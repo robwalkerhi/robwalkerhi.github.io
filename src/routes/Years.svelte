@@ -7,7 +7,7 @@
 <div class="flex flex-col space-y-3 mt-8">
 {#if selectedRingId === 1}
     <Month month="April">
-        Turn 1 years old, I am a blob.
+        Turn 1 years old.
     </Month>
 {/if}
 {#if selectedRingId === 2}
@@ -31,31 +31,49 @@
     </Month>
 {/if}
 {#if selectedRingId === 6}
+    <Month month="April">
+        Turn 6 years old.
+    </Month>
     <Month month="September">
         Start Grade 1 at the York School.
     </Month>
 {/if}
 {#if selectedRingId === 7}
+    <Month month="April">
+        Turn 7 years old.
+    </Month>
     <Month month="September">
         Start Grade 2 at the York School.
     </Month>
 {/if}
 {#if selectedRingId === 8}
+    <Month month="April">
+        Turn 8 years old.
+    </Month>
     <Month month="September">
         Start Grade 3 at the York School.
     </Month>
 {/if}
 {#if selectedRingId === 9}
+    <Month month="April">
+        Turn 9 years old.
+    </Month>
     <Month month="September">
         Start Grade 4 at the York School.
     </Month>
 {/if}
 {#if selectedRingId === 10}
+    <Month month="April">
+        Turn 10 years old.
+    </Month>
     <Month month="September">
         Start Grade 5 at UCC.
     </Month>
 {/if}
 {#if selectedRingId === 11}
+    <Month month="April">
+        Turn 11 years old.
+    </Month>
     <Month month="September">
         Start Grade 6 at UCC.
     </Month>
@@ -64,16 +82,25 @@
     <Month month="January">
         Concussion from skiing.
     </Month>
+    <Month month="April">
+        Turn 12 years old.
+    </Month>
     <Month month="September">
         Start Grade 7 at UCC.
     </Month>
 {/if}
 {#if selectedRingId === 13}
+    <Month month="April">
+        Turn 13 years old.
+    </Month>
     <Month month="September">
         Start Grade 8 at UCC.
     </Month>
 {/if}
 {#if selectedRingId === 14}
+    <Month month="April">
+        Turn 14 years old.
+    </Month>
     <Month month="September">
         Start Grade 9 at UCC.
     </Month>
@@ -82,21 +109,33 @@
     </Month>
 {/if}
 {#if selectedRingId === 15}
+    <Month month="April">
+        Turn 15 years old.
+    </Month>
     <Month month="September">
         Start Grade 10 at UCC.
     </Month>
 {/if}
 {#if selectedRingId === 16}
+    <Month month="April">
+        Turn 16 years old.
+    </Month>
     <Month month="September">
         Start Grade 11 at UCC.
     </Month>
 {/if}
 {#if selectedRingId === 17}
+    <Month month="April">
+        Turn 17 years old.
+    </Month>
     <Month month="September">
         Start Grade 12 at UCC.
     </Month>
 {/if}
 {#if selectedRingId === 18}
+    <Month month="April">
+        Turn 18 years old.
+    </Month>
     <Month month="May">
         Decide to take a Gap Year before college.
     </Month>
@@ -105,6 +144,9 @@
     </Month>
 {/if}
 {#if selectedRingId === 19}
+    <Month month="April">
+        Turn 19 years old.
+    </Month>
     <Month month="February">
         Stop working at startup, start travelling in Southeast Asia.
     </Month>
@@ -116,6 +158,9 @@
     </Month>
 {/if}
 {#if selectedRingId === 20}
+    <Month month="April">
+        Turn 20 years old.
+    </Month>
     <Month month="September">
         Start sophomore year at Harvard.
     </Month>
@@ -123,6 +168,9 @@
 {#if selectedRingId === 21}
     <Month month="March">
         COVID pandemic hits, move home during spring break.
+    </Month>
+    <Month month="April">
+        Turn 21 years old.
     </Month>
     <Month month="May">
         Decide to take gap year during COVID.
@@ -132,6 +180,9 @@
     </Month>
 {/if}
 {#if selectedRingId === 22}
+    <Month month="April">
+        Turn 22 years old.
+    </Month>
     <Month month="June">
         Stop working at Shopify.
     </Month>
@@ -146,11 +197,17 @@
     </Month>
 {/if}
 {#if selectedRingId === 23}
+    <Month month="April">
+        Turn 23 years old.
+    </Month>
     <Month month="September">
         Start senior year at Harvard.
     </Month>
 {/if}
 {#if selectedRingId === 24}
+    <Month month="April">
+        Turn 24 years old.
+    </Month>
     <Month month="May">
         Graduate from Harvard.
     </Month>
@@ -182,7 +239,7 @@
         visit the DeYoung for the first time.
     </Month>
     <Month month="April">
-        Party bus birthday party, Taco Bell Cantina for the first time.
+        Turn 25 years old, party bus friend's birthday party, Taco Bell Cantina for the first time.
     </Month>
     <Month month="May">
         Swan Lake at SF symphony, Stanford Law Prom, trail run before work, 
@@ -234,7 +291,7 @@
         run a half marathon through GGP, fall ill w a bad cold, 
         go out for dinners, reconnect w friends, 
         attend SF MoMA Art Bash after-party, celebrate a birthday in Dolores, 
-        camp on Angel Island.
+        camp on Angel Island, turn 26 years old.
     </Month>
     <Month month="May">
         See the Berkeley Botanical Gardens, finish making homemade cigars, 
